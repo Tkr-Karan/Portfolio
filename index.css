@@ -1,0 +1,71 @@
+body{
+    margin: 0px;
+}
+
+/* Body header */
+#body-header{
+    height: 65vh;
+    opacity: 0.8;
+    background-image: url(./images/SpidyReverse.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+/* horizontal List */
+.horizontal-list{
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.horizontal-list li{
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.horizontal-list li a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.nav-menu li a{
+    transition: color 0.8s, border-bottom 10s;
+}
+
+.nav-menu li a:hover{
+    color: forestgreen;
+    border-bottom: 1px solid blue;
+
+}
+
+.text-center{
+    text-align: center;
+}
+
+/* name and Social Icons */
+#name-social-container{
+    margin-top: 20vh;
+}
+
+#my-name{
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom:0.5rem;
+}
+
+.social-icons li a i{
+
+    color: bisque;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 50%;
+}
+
+.social-icons li a i:hover{
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+}
