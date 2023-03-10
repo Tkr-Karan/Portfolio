@@ -16,6 +16,7 @@ body{
 /* horizontal List */
 .horizontal-list{
     list-style: none;
+    font-size: 25px;
     padding-left: 0px;
     margin: 0px;
 }
